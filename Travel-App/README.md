@@ -1,14 +1,29 @@
-- APIs Used
+Project name : Travel app 
 
-a. Pixabay API: display an image of the location entered
-b. GeoNames API: get coordinates
-c. WeatherBit API: get weather data
 
-- To install and open the app in the local host
+* APIs Used in project 
+
+1- Pixabay API
+2- GeoNames API
+3- WeatherBit API
+
+* To install and open the app in the local host
 
   - npm install
   - npm run build-dev
   - npm run build-prod
   - npm run start
 
-* A remove trip function was added, so the users are able to remove the trip. Specifically, when the user click the " remove " button, the "plan_form" will be reset (the "from" input text, "to" input text and "desitination date" input will become empty). Also, the "trip_information" section will become invisiable.
+
+
+* To start planning the trip first we should click on the "plan" button , then we will go to next page that we can plan our trip :
+
+For planning the trip:
+ . In first placeholder write the name of city that you are traveling from 
+ . In second placeholder write the name of distention
+ . In third placeholder wirte the  Departing Date
+
+
+
+* The remove function:
+    . The user can cancel or delete the trip by clicking on "Remove" button 
