@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 })
 //set up server
 app.listen(8080,function(){
-    console.log('server is running at port 8080')
+    console.log('server is running at port http://localhost:8080 ')
 });
 
 
